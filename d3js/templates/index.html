@@ -1,0 +1,326 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html class="html">
+ <head>
+
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="7.3.5.244"/>
+  <title>Dashboard</title>
+  <!-- CSS -->
+  
+
+  <link rel="stylesheet" type="text/css" href="{% static 'css/site_global.css'%}"/>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/master_a-master.css'%}"/>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/index.css'%}"/>
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/iefonts_index.css'%}"/>
+  <![endif]-->
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+var __adobewebfontsappname__ = "muse";
+</script>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/lato:n4,n3:all;satisfy:n4:all;maven-pro:n4,n7:all;nova-flat:n4:all.js" type="text/javascript">\x3C/script>');
+</script>
+   </head>
+ <body class="museBGSize">
+
+  <div class="rounded-corners clearfix" id="page"><!-- group -->
+   <div class="clearfix grpelem" id="pu272-3"><!-- group -->
+    <div class="shadow rounded-corners clearfix grpelem" id="u272-3"><!-- content -->
+     <p>&nbsp;</p>
+    </div>
+    <ul class="MenuBar clearfix grpelem" id="menuu193"><!-- vertical box -->
+    
+     <li class="MenuItemContainer clearfix colelem" id="u234"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u235" href="{% url 'd3js:graph'%}"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u237-4"><!-- content --><p id="u237-2">Volumes</p></div></a>
+     </li>
+     <li class="MenuItemContainer clearfix colelem" id="u241"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u242" href="characters.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u245-4"><!-- content --><p id="u245-2">Characters</p></div></a>
+     </li>
+     <li class="MenuItemContainer clearfix colelem" id="u248"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u249" href="users.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u251-4"><!-- content --><p id="u251-2">Users</p></div></a>
+     </li>
+     <li class="MenuItemContainer clearfix colelem" id="u255"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u256" href="{% url 'd3js:sentiment'%}"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u257-4"><!-- content --><p id="u257-2">Tweets</p></div></a>
+     </li>
+     <li class="MenuItemContainer clearfix colelem" id="u262"><!-- horizontal box -->
+      <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners clearfix grpelem" id="u265" href="gene.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u268-4"><!-- content --><p id="u268-2">Gene</p></div></a>
+     </li>
+    </ul>
+    <div class="clearfix grpelem" id="u284-4" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9781,M12=0.2079,M21=-0.2079,M22=0.9781,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-6" data-mu-ie-matrix-dy="-11"><!-- content -->
+     <p>Dive</p>
+    </div>
+    <div class="clip_frame grpelem" id="u285"><!-- image -->
+     <img class="block" id="u285_img" src="{%static 'images/resized%20logo.png'%}" alt="" width="99" height="101"/>
+    </div>
+    <div class="clearfix grpelem" id="u303-6"><!-- content -->
+     <p>The Crystal Ball</p>
+     <p>of Social TV</p>
+    </div>
+    <div class="clearfix grpelem" id="u328-4"><!-- content -->
+     <p>Odipo Dev ©2015</p>
+    </div>
+   </div>
+   <div class="clearfix grpelem" id="pu401"><!-- column -->
+    <div class="shadow rounded-corners clearfix colelem" id="u401"><!-- group -->
+     <div class="clip_frame grpelem" id="u413"><!-- image -->
+      <img class="block" id="u413_img" src="images/user.png" alt="" width="30" height="30"/>
+     </div>
+     <div class="clearfix grpelem" id="u402-4"><!-- content -->
+      <p>username@dive.co.ke</p>
+     </div>
+     <div class="clip_frame grpelem" id="u408"><!-- image -->
+      <img class="block" id="u408_img" src="images/bell_blue.png" alt="" width="32" height="32"/>
+     </div>
+     <div class="clip_frame grpelem" id="u419"><!-- image -->
+      <img class="block" id="u419_img" src="images/chat.png" alt="" width="24" height="24"/>
+     </div>
+     <div class="clip_frame grpelem" id="u425"><!-- image -->
+      <img class="block" id="u425_img" src="images/info.png" alt="" width="29" height="29"/>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pppu435"><!-- group -->
+     <div class="clearfix grpelem" id="ppu435"><!-- column -->
+      <div class="clearfix colelem" id="pu435"><!-- group -->
+       <div class="shadow rounded-corners clearfix grpelem" id="u435"><!-- group -->
+        <div class="rounded-corners clearfix grpelem" id="u443"><!-- group -->
+         <div class="clip_frame grpelem" id="u444"><!-- image -->
+          <img class="block" id="u444_img" src="images/smile.png" alt="" width="55" height="55"/>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="u450-4"><!-- content -->
+         <p>7.5</p>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="u451-4"><!-- content -->
+        <p>POSITIVE</p>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu476"><!-- group -->
+       <div class="shadow rounded-corners clearfix grpelem" id="u476"><!-- column -->
+        <div class="position_content" id="u476_position_content">
+         <div class="rounded-corners clearfix colelem" id="u477"><!-- group -->
+          <div class="clearfix grpelem" id="u478-4"><!-- content -->
+           <p>LATEST TWEETS</p>
+          </div>
+         </div>
+         <div class="clearfix colelem" id="u510-4"><!-- content -->
+          <p id="u510-2">Really loving what they're doing with this new show on @TV_Station #ShowHashTag</p>
+         </div>
+         <div class="clearfix colelem" id="pu484"><!-- group -->
+          <div class="shadow rounded-corners clearfix grpelem" id="u484"><!-- group -->
+           <div class="clearfix grpelem" id="u485-4"><!-- content -->
+            <p>VIEW MORE</p>
+           </div>
+          </div>
+          <div class="clip_frame grpelem" id="u653"><!-- image -->
+           <img class="block" id="u653_img" src="images/2015-01-13%20091121%20pm.jpg" alt="" width="57" height="28"/>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="u650-4"><!-- content -->
+        <p id="u650-2">~Mulabebe Tiwo</p>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu569"><!-- group -->
+       <div class="shadow rounded-corners clearfix grpelem" id="u569"><!-- column -->
+        <div class="position_content" id="u569_position_content">
+         <div class="colelem" id="u577"><!-- simple frame --></div>
+         <div class="clearfix colelem" id="u590-4"><!-- content -->
+          <p id="u590-2">Show Pilot</p>
+         </div>
+         <div class="colelem" id="u575"><!-- simple frame --></div>
+         <div class="clearfix colelem" id="u592-4"><!-- content -->
+          <p id="u592-2">Launch Party</p>
+         </div>
+         <div class="colelem" id="u573"><!-- simple frame --></div>
+         <div class="clearfix colelem" id="u591-4"><!-- content -->
+          <p id="u591-2">Episode 1</p>
+         </div>
+         <div class="clearfix colelem" id="u691-4"><!-- content -->
+          <p id="u691-2">The Dread hath come</p>
+         </div>
+         <div class="colelem" id="u574"><!-- simple frame --></div>
+         <div class="rounded-corners clearfix colelem" id="u570"><!-- group -->
+          <div class="clearfix grpelem" id="u571-4"><!-- content -->
+           <p>+</p>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="u593-4"><!-- content -->
+        <p id="u593-2">Sunday, 20th</p>
+       </div>
+       <div class="clearfix grpelem" id="u594-4"><!-- content -->
+        <p id="u594-2">Monday, 21st</p>
+       </div>
+       <div class="clearfix grpelem" id="u595-4"><!-- content -->
+        <p id="u595-2">Sunday, 27th</p>
+       </div>
+       <div class="clearfix grpelem" id="u596-4"><!-- content -->
+        <p id="u596-2">17:00</p>
+       </div>
+       <div class="clearfix grpelem" id="u597-4"><!-- content -->
+        <p id="u597-2">20:00</p>
+       </div>
+       <div class="clearfix grpelem" id="u598-4"><!-- content -->
+        <p id="u598-2">17:00</p>
+       </div>
+       <div class="clearfix grpelem" id="u599-4"><!-- content -->
+        <p id="u599-2">The Missing Man</p>
+       </div>
+       <div class="clearfix grpelem" id="u690-4"><!-- content -->
+        <p id="u690-2">Hapa Hotel</p>
+       </div>
+      </div>
+     </div>
+     <div class="clearfix grpelem" id="ppu437"><!-- column -->
+      <div class="clearfix colelem" id="pu437"><!-- group -->
+       <div class="shadow rounded-corners clearfix grpelem" id="u437"><!-- group -->
+        <div class="clip_frame grpelem" id="u505"><!-- image -->
+         <img class="block" id="u505_img" src="{% static 'images/twitter-flock-u505.jpg'%}" alt="" width="257" height="129"/>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="u453-4"><!-- content -->
+        <p>TV Show Name</p>
+       </div>
+       <div class="shadow clearfix grpelem" id="u436"><!-- group -->
+        <div class="clearfix grpelem" id="u454-4"><!-- content -->
+         <p>TWEETS THIS WEEK</p>
+        </div>
+        <div class="shadow grpelem" id="u474"><!-- simple frame --></div>
+        <div class="clearfix grpelem" id="u458-4"><!-- content -->
+         <p>CHANGE IN ENGAGEMENT</p>
+        </div>
+        <div class="shadow grpelem" id="u468"><!-- simple frame --></div>
+        <div class="clearfix grpelem" id="u460-4"><!-- content -->
+         <p>NUMBER OF USERS</p>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="u457-4"><!-- content -->
+        <p>32,760</p>
+       </div>
+       <div class="clearfix grpelem" id="u459-4"><!-- content -->
+        <p>+2.5%</p>
+       </div>
+       <div class="clearfix grpelem" id="u461-4"><!-- content -->
+        <p>72</p>
+       </div>
+       <div class="clearfix grpelem" id="u462-4"><!-- content -->
+        <p>@TV_Handle</p>
+       </div>
+       <div class="shadow clearfix grpelem" id="u463"><!-- group -->
+        <div class="clip_frame clearfix grpelem" id="u857"><!-- image -->
+         <div id="u857_clip">
+          <img class="position_content" id="u857_img" src="images/2015-01-13%20112053%20pm.jpg" alt="" width="279" height="86"/>
+         </div>
+        </div>
+       </div>
+       <div class="shadow rounded-corners clearfix grpelem" id="u466"><!-- group -->
+        <div class="clearfix grpelem" id="u1017-4"><!-- content -->
+         <p>Male</p>
+        </div>
+        <div class="clearfix grpelem" id="u1018-4"><!-- content -->
+         <p>Female</p>
+        </div>
+       </div>
+       <div class="rounded-corners clearfix grpelem" id="u519"><!-- group -->
+        <div class="rounded-corners clearfix grpelem" id="u520"><!-- group -->
+         <div class="clip_frame grpelem" id="u1024"><!-- image -->
+          <img class="block" id="u1024_img" src="images/camera.png" alt="" width="67" height="67"/>
+         </div>
+        </div>
+       </div>
+       <div class="clearfix grpelem" id="u859-4"><!-- content -->
+        <p>Android</p>
+       </div>
+       <div class="clearfix grpelem" id="u860-4"><!-- content -->
+        <p>Web</p>
+       </div>
+       <div class="clearfix grpelem" id="u861-4"><!-- content -->
+        <p>iOS</p>
+       </div>
+       <div class="clearfix grpelem" id="u1019-4"><!-- content -->
+        <p>41%</p>
+       </div>
+       <div class="clearfix grpelem" id="u1020-4"><!-- content -->
+        <p>69%</p>
+       </div>
+       <div class="clearfix grpelem" id="u1021-4"><!-- content -->
+        <p><span id="u1021">GENDER</span></p>
+       </div>
+      </div>
+      <div class="clearfix colelem" id="pu578"><!-- group -->
+       <div class="shadow rounded-corners clearfix grpelem" id="u578"><!-- group -->
+        <img class="grpelem" id="u626" src="images/map-u626.png" alt="" width="323" height="163"/><!-- rasterized frame -->
+       </div>
+       <div class="rounded-corners grpelem" id="u579"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u580"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u581"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u582"><!-- simple frame --></div>
+       <div class="rounded-corners grpelem" id="u583"><!-- simple frame --></div>
+       <div class="clearfix grpelem" id="u584-4"><!-- content -->
+        <p>LOCATIONS</p>
+       </div>
+       <div class="clearfix grpelem" id="u585-4"><!-- content -->
+        <p id="u585-2">Kenya, 37%</p>
+       </div>
+       <div class="clearfix grpelem" id="u586-4"><!-- content -->
+        <p id="u586-2">Nigeria, 23%</p>
+       </div>
+       <div class="clearfix grpelem" id="u587-4"><!-- content -->
+        <p id="u587-2">Mali, 8%</p>
+       </div>
+       <div class="clearfix grpelem" id="u588-4"><!-- content -->
+        <p id="u588-2">South Africa, 5%</p>
+       </div>
+       <div class="clearfix grpelem" id="u589-4"><!-- content -->
+        <p id="u589-2">Sudan, 2%</p>
+       </div>
+       <div class="clip_frame grpelem" id="u659"><!-- image -->
+        <img class="block" id="u659_img" src="images/96c7e3f6e4565a3d77563b85b18263dd.png" alt="" width="33" height="33"/>
+       </div>
+       <div class="clip_frame grpelem" id="u665"><!-- image -->
+        <img class="block" id="u665_img" src="images/flag_of_nigeria.png" alt="" width="39" height="39"/>
+       </div>
+       <div class="clip_frame grpelem" id="u671"><!-- image -->
+        <img class="block" id="u671_img" src="images/ef0fb14cad554e442e6b45955b8e6fb3.png" alt="" width="34" height="34"/>
+       </div>
+       <div class="clip_frame grpelem" id="u677"><!-- image -->
+        <img class="block" id="u677_img" src="images/256-256-3c70793b73c2a4c90aaaa57ab89339ea.png" alt="" width="36" height="36"/>
+       </div>
+       <div class="clip_frame grpelem" id="u683"><!-- image -->
+        <img class="block" id="u683_img" src="images/sudan.png" alt="" width="36" height="36"/>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="{% static 'scripts/jquery-1.8.3.min.js'%}" type="text/javascript">\x3C/script>');
+</script>
+  <script src="{% static 'scripts/museutils.js'%}" type="text/javascript"></script>
+  <script src="{% static 'scripts/jquery.musepolyfill.bgsize.js'%}" type="text/javascript"></script>
+  <script src="{% static 'scripts/jquery.musemenu.js'%}" type="text/javascript"></script>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   $(document).ready(function() { try {
+Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.showWidgetsWhenReady();/* body */
+Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
+} catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
+</script>
+   </body>
+</html>
